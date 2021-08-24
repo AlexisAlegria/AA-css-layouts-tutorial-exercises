@@ -17,7 +17,7 @@ body {
 	color: #fff;
 	font-family: Helvetica;
 	text-align: center;
-	margin: 0;
+	margin: 10px;
 }
 
 header,
@@ -26,13 +26,27 @@ section {
 	border: 1px solid rgba(255, 255, 255, 0.8);
 	margin-bottom: 10px;
 	border-radius: 3px;
+	white-space: nowrap;
 }
 
 header {
 	padding: 10px 0;
+	width: 100%;
 }
 
 nav,
 section {
 	padding: 100px 0;
+	white-space: nowrap;
+	justify-content: center;
+}
+nav {
+	display: flex;
+	float: left;
+	width: 24%;
+}
+section {
+	display: flex;
+	float: right;
+	width: 75%;
 }
